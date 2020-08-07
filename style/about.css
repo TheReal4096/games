@@ -1,0 +1,29 @@
+@import url(fonts/clear-sans.css);
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family:  "Clear Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px; }
+.tile, .tile .tile-inner {
+  width: 107px;
+  height: 107px;
+  line-height: 107px; }
+@media screen and (max-width: 520px) {
+  .tile, .tile .tile-inner {
+    width: 57.5px;
+    height: 57.5px;
+    line-height: 57.5px; }
+}
+  .tile .tile-inner {
+    border-radius: 3px;
+    background: #eee4da;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 55px; }
+@media screen and (max-width: 520px) {
+	.tile .tile-inner {
+	  font-size: 35px; }
+}
