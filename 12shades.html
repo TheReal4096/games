@@ -1,0 +1,168 @@
+<!doctype html>
+<html class="tLangEn tEleven dGrey" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Twelve shades of grey | A variation of 2048</title>
+	<link href="http://2048-variations.net/en/eleven" rel="canonical" />
+	<base href="http://2048-variations.net/en/eleven" />
+	
+	<link href="../css/twelve.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, minimal-ui">
+	
+	<!-- OpenGraph data -->
+	<meta property="og:title" content="Eleven shades of grey | A variation of 2048" />
+	<meta property="og:description" content="Eleven shades of grey | A variation of 2048" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://2048-variations.net/img/kspot.jpg" />
+	<meta property="og:url" content="http://2048-variations.net/" />
+	<meta property="og:site_name" content="2048 Variations" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale:alternate" content="en_US" />
+	<meta property="og:locale:alternate" content="fr_FR" />
+	<meta property="og:locale:alternate" content="es_ES" />
+  <meta property="og:locale:alternate" content="pe_PE" />
+	<meta property="og:locale:alternate" content="gr_GR" />
+	<meta property="fb:admins" content="526463183" />
+	
+	<style>
+		.score-container:after { content: "Score"; }
+		.best-container:after { content: "Best"; }
+		
+		/* TEMP */
+		.sepTop {
+			margin-bottom: 30px;
+		}
+		.game-container {
+			margin-top: 40px;
+		}
+		.sites {
+			float: right;
+			margin: 15px 0;
+			font-size: 15px;
+			line-height: 1.35;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<div class="header">
+			<div class="languages">
+				<a class="link active" href="../en/eleven" hreflang="en" title="English">EN</a>
+				<a class="link " href="../fr/eleven" hreflang="fr" title="French">FR</a>
+				<a class="link " href="../es/eleven" hreflang="es" title="Spanish">ES</a>
+        <a class="link " href="../pe/eleven" hreflang="pe" title="Persian">PE</a>
+        <a class="link " href="../gr/eleven" hreflang="gr" title="Greek">GR</a>
+			</div>
+		</div>
+		<hr class="sepTop"/>
+
+		<div class="heading">
+			<h1 class="title">Twelve</h1>
+			<div class="scores-container">
+				<div class="score-container">0</div>
+				<div class="best-container">0</div>
+			</div>
+		</div>
+
+		<div class="above-game">
+			<p class="game-intro"><strong>Twelve</strong> shades of <strong>grey!</strong></p>
+			<a class="restart-button">New Game</a>
+		</div>
+
+		<div class="game-container">
+			<div class="game-message">
+				<p></p>
+				<div class="lower">
+					<a class="keep-playing-button">Keep going</a>
+					<a class="retry-button">Try again</a>
+				</div>
+			</div>
+
+			<div class="grid-container">
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+			</div>
+
+			<div class="tile-container">
+			</div>
+		</div>
+		
+		<div class="variations">
+			2048-variations.net's (and so far TheReal4096's) Variations:			<a href="http://2048-variations.net/en/original" title="The original 2048 from Gabriele Cirulli" class="link ">Original 2048</a>
+      <a href="http://thereal4096.github.io/games" title="The original 2048 from Gabriele Cirulli" class="link ">Original 2048 (second version)</a>
+      <a href="http://thereal4096.github.io/games/negative4096.html" title="The negative version of 2048" class="link ">Negative 4096</a>
+			<a href="http://2048-variations.net/en/kspot" title="The K-Spot, a literary variation!" class="link ">The K-Spot</a>
+			<a href="http://2048-variations.net/en/eleven" title="Eleven shades of grey!" class="link active">Eleven shades</a>
+      <a href="http://thereal4096.github.io/games/12shades.html" title="Twelve shades of grey!" class="link active">Twelve shades</a>
+			<a href="http://2048-variations.net/en/lambda" title="The Lambda, a Greek variation!" class="link ">Lambda</a>
+      <a href="http://thereal4096.github.io/games/greek.html" title="Greek God, an endless Greek variation!" class="link ">GRΣΣK GΘD</a>
+			<a href="http://2048-variations.net/en/juichi" title="Jū-ichi, a Japanese variation!" class="link ">Jū-ichi</a>
+			<a href="http://2048-variations.net/en/smileys" title="Smileys, a smiling variation!" class="link ">Smileys</a>
+			<a href="http://2048-variations.net/en/clocks" title="Clocks, a ticking variation!" class="link ">Clocks</a>
+			<a href="http://2048-variations.net/en/zodiac" title="Zodiaque, an astronomic variation!" class="link ">Zodiac</a>
+      <a href="http://thereal4096.github.io/games/zodiaque.html" title="Zodiac, an astronomic variation!" class="link ">Zodiac</a>
+		</div>
+
+		<p class="game-explanation"><strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same shade of grey touch, they <strong>merge into one</strong> to display the following shade!</p>
+		
+		<hr class="sep"/>
+		
+		<div class="footer">
+			<p><strong class="important">Note:</strong> This site is an adaptation of <a href="https://gabrielecirulli.github.io/2048/" target="_blank">2048 by Gabriele Cirulli</a>. Adapted by <a href="https://matthieubeneteau.com" target="_blank">Matthieu Benéteau</a>.</p>
+			<div class="sites">
+				Others:
+				<a href="https://thereal4096.github.io" class="link" title="Online 4096 Game">4096</a> <a href="https://thereal4096.github.io/TheReal4096" class="link" title="TheReal4096">TheReal4096</a>
+				<br />
+			</div>
+		</div>
+		
+	</div>
+
+	<script src="../js/twelve.js"></script>
+	<script>
+		HTMLValues = twelveValues;
+		HTMLMsgWin = "You win!";
+		HTMLMsgOver = "Game over!";
+	</script>
+	
+	<!-- Github Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-15438708-4', 'thereal4096.github.io/games');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>
+
