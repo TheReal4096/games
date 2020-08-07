@@ -1,0 +1,96 @@
+  .tile.tile-1 .tile-inner {
+    color: #320023;
+    background: #FFE7FF;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-2 .tile-inner {
+    color: #320023;
+    background: #FFD7FF;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-3 .tile-inner {
+    color: #320023;
+    background: #FFA7FF;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.03), inset 0 0 0 1px rgba(255, 255, 255, 0.02); }
+  .tile.tile-4 .tile-inner {
+    color: #f9f6f2;
+    background: #DB80E8;
+    box-shadow: 0 0 30px 10px rgba(219, 128, 232, 0.06), inset 0 0 0 1px rgba(255, 255, 255, 0.03); }
+  .tile.tile-5 .tile-inner {
+    color: #f9f6f2;
+    background: #D257FF;
+    box-shadow: 0 0 30px 10px rgba(210, 87, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.06); }
+  .tile.tile-6 .tile-inner {
+    color: #f9f6f2;
+    background: #CD65E8;
+    box-shadow: 0 0 30px 10px rgba(205, 101, 232, 0.14), inset 0 0 0 1px rgba(255, 255, 255, 0.1); }
+  .tile.tile-7 .tile-inner {
+    color: #f9f6f2;
+    background: #BE43FF;
+    box-shadow: 0 0 30px 10px rgba(190, 67, 255, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286); }
+  .tile.tile-8 .tile-inner {
+    color: #f9f6f2;
+    background: #AB3DFF;
+    box-shadow: 0 0 30px 10px rgba(171, 61, 255, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048); }
+  .tile.tile-9 .tile-inner {
+    color: #f9f6f2;
+    background: #8D2CE8;
+    box-shadow: 0 0 30px 10px rgba(141, 44, 232, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381); }
+  .tile.tile-10 .tile-inner {
+    color: #f9f6f2;
+    background: #8221FF;
+    box-shadow: 0 0 30px 10px rgba(130, 33, 255, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571); }
+  .tile.tile-11 .tile-inner {
+    color: #f9f6f2;
+    background: #5E15E8;
+    box-shadow: 0 0 30px 10px rgba(94, 21, 232, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-12 .tile-inner {
+    color: #f9f6f2;
+    background: #4F08FF;
+    box-shadow: 0 0 30px 10px rgba(94, 21, 232, 0.65), inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .tile.tile-13 .tile-inner {
+    color: #f9f6f2;
+    background: #3F00DF;
+    box-shadow: 0 0 30px 10px rgba(94, 21, 232, 0.78), inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+  .tile.tile-14 .tile-inner {
+    color: #f9f6f2;
+    background: #3000D0;
+    box-shadow: 0 0 30px 10px rgba(48, 0, 208, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-15 .tile-inner {
+    color: #f9f6f2;
+    background: #9800D0;
+    box-shadow: 0 0 30px 10px rgba(152, 0, 208, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-16 .tile-inner {
+    color: #f9f6f2;
+    background: #D0009F;
+    box-shadow: 0 0 30px 10px rgba(208, 0, 159, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-17 .tile-inner {
+    color: #f9f6f2;
+    background: #D00037;
+    box-shadow: 0 0 30px 10px rgba(208, 0, 55, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-18 .tile-inner {
+    color: #f9f6f2;
+    background: #D03000;
+    box-shadow: 0 0 30px 10px rgba(208, 48, 0, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-19 .tile-inner {
+    color: #f9f6f2;
+    background: #D09800;
+    box-shadow: 0 0 30px 10px rgba(208, 152, 0, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-20 .tile-inner {
+    color: #f9f6f2;
+    background: #9FD000;
+    box-shadow: 0 0 30px 10px rgba(159, 208, 0, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-21 .tile-inner {
+    color: #f9f6f2;
+    background: #37D000;
+    box-shadow: 0 0 30px 10px rgba(55, 208, 0, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-22 .tile-inner {
+    color: #f9f6f2;
+    background: #00D030;
+    box-shadow: 0 0 30px 10px rgba(0, 208, 48, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-23 .tile-inner {
+    color: #f9f6f2;
+    background: #00D098;
+    box-shadow: 0 0 30px 10px rgba(0, 208, 152, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-24 .tile-inner {
+    color: #f9f6f2;
+    background: #009FD0;
+    box-shadow: 0 0 30px 10px rgba(0, 159, 208, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
